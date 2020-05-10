@@ -1,0 +1,114 @@
+@media (max-width: 1350px) {
+  .logo {
+    margin: -7px 30px 0 0;
+  }
+  .container_header ul li {
+    margin-right: 20px;
+  }
+  .main_menu > ul > li {
+    margin: 0 20px 20px 0;
+    min-width: 160px;
+  }
+} /* 1350px */
+
+@media (max-width: 1150px) {
+  .container_header ul {
+    display: none;
+  }
+  .main_menu {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    width: 280px;
+    height: 100%;
+    border: none;
+    background-color: #023683;
+    border-radius: 0px 20px 20px 0px;
+  }
+  .logo_2 {
+    display: inline-block;
+    margin: 20px 0 20px 23px;
+  }
+  .close {
+    font-size: 24px;
+    color: white;
+  }
+  .main_menu form {
+    position: relative;
+    margin: 23px 23px;
+    width: 69%;
+  }
+  .main_menu form input {
+    height: 23px;
+    line-height: 23px;
+    padding: 0 20px 0 10px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    color: white;
+    background-color: #023683;
+  }
+  .main_menu form input:focus {
+    outline: none;
+  }
+  .main_menu form button {
+    padding: 0 5px;
+    font-size: 14px;
+    color: #fff;
+  }
+  .main_menu > ul {
+    padding: 8px 23px 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main_menu ul li {
+    margin: 0 20px 10px 0;
+  }
+  .main_menu ul li a {
+    color: white;
+    font: 18px;
+    font-weight: normal;
+  }
+  .main_menu > ul ul {
+    display: none;
+  }
+  .appstore {
+    display: block;
+    width: 175px;
+    margin: 0 23px 20px;
+    border-top: 1px solid white;
+  }
+  .appstore a {
+    margin: 10px 0 0;
+    display: inline-block;
+  }
+} /* 1150px */
+
+@media (max-width: 750px) {
+  .container_wrap_2 {
+    display: none;
+  }
+  .container_header {
+    height: 55px;
+    padding: 14px 10px 12px;
+    position: relative;
+  }
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 16px;
+    transform: translateX(-50%);
+  }
+  .toggle_button {
+    position: absolute;
+    left: 25px;
+  }
+  .search_button {
+    position: absolute;
+    right: 25px;
+    margin: 0;
+  }
+  .live,
+  .select-box {
+    display: none;
+  }
+} /* 750px */
