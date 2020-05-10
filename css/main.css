@@ -12,7 +12,9 @@ body {
 ul {
   margin: 0;
 }
-
+a:hover {
+  text-decoration: none;
+}
 .main {
   transition: filter 1s;
 }
@@ -47,6 +49,7 @@ header {
   display: inline-block;
   height: 30px;
   margin-right: 50px;
+  line-height: 19px;
 }
 .container_header ul li a {
   line-height: 30px;
@@ -63,7 +66,7 @@ header {
   transform: translateX(-50%);
   width: 0%;
   opacity: 0;
-  border: 1px solid white;
+  border: 0.5px solid white;
   transition: 0.3s ease-in-out;
 }
 .container_header ul li a:hover:before {
@@ -118,7 +121,8 @@ header {
 .select-box .options-container {
   position: absolute;
   top: 50px;
-  background: #cdcdcd;
+  /* background: #cdcdcd; */
+  background-color: #ededed;
   color: #000;
   max-height: 0;
   width: 200px;
@@ -172,7 +176,7 @@ header {
   cursor: pointer;
 }
 .select-box .option:hover {
-  background: #a9a9a9;
+  background: #c7c7c7;
 }
 .select-box label {
   cursor: pointer;
@@ -328,10 +332,10 @@ header {
 }
 .left_sidebar::-webkit-scrollbar {
   width: 0px;
-  
 }
-.left_sidebar h2 {
+.header_singles {
   font-size: 24px;
+  font-weight: 600;
   margin-bottom: 2px;
 }
 .post_left_single {
@@ -364,21 +368,83 @@ header {
 .right_sidebar {
   float: right;
   margin-left: 8px;
-  outline: 1px solid red;
 }
 .sidebar {
   width: 300px;
   display: inline-block;
 }
+.aside_blog {
+  padding: 16px 14px;
+  background-color: white;
+  border: 1px solid #ddd;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+.aside_pogoda {
+  background-color: white;
+}
+.title_box {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.card_container {
+  width: 100%;
+  display: table;
+}
+.card_pogoda {
+  width: 25%;
+  display: table-cell;
+}
+.card_pogoda p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.card_pogoda p:nth-child(3) {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.card_pogoda p:nth-child(3) span {
+  font-size: 14px;
+  line-height: 16px;
+  color: #696969;
+  position: relative;
+  margin-left: 5px;
+}
+.card_pogoda p:nth-child(3) span::before,
+.card_pogoda p:nth-child(3) span::after {
+  content: '';
+  position: absolute;
+  border: 1px solid #696969;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  top: 0px;
+}
+.card_pogoda p:nth-child(3) span::before {
+  top: -3px;
+  left: -8px;
+  border-color: black;
+}
+.card_pogoda img {
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+}
+
 .center_site {
   background-color: white;
   display: inline-block;
   width: calc(100% - 616px);
-  height: 2000px;
 }
-.carousel-item img {
-  height: 309px;
+.carousel-item {
+  max-height: 309px;
+  width: 100%;
 }
+
 .carousel-indicators {
   display: none;
 }
@@ -391,32 +457,32 @@ header {
   top: 0;
   right: 0;
   width: 316px;
-  height: 309px;
+  height: 100%;
   backdrop-filter: blur(10px);
   border: 1px solid #838383;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
-  animate-duration: 800ms;
-  animation-delay: 0.6s;
+  animate-duration: 700ms;
+  animation-delay: 0.5s;
 }
 .blur_box h2 {
   position: absolute;
-  top: 64px;
+  top: 20%;
   left: 23px;
   width: 267px;
   font-size: 20px;
   font-weight: normal;
-  animate-duration: 400ms;
-  animation-delay: 1s;
+  animate-duration: 300ms;
+  animation-delay: 0.8s;
 }
 .blur_box p {
   position: absolute;
-  top: 150px;
+  top: 45%;
   left: 23px;
   width: 267px;
   font-size: 14px;
-  animate-duration: 800ms;
-  animation-delay: 1.8s;
+  animate-duration: 300ms;
+  animation-delay: 1.2s;
 }
 .blur_box a {
   position: absolute;
@@ -424,8 +490,8 @@ header {
   left: 23px;
   color: white;
   font-size: 20px;
-  animate-duration: 1000ms;
-  animation-delay: 4s;
+  animate-duration: 1500ms;
+  animation-delay: 2.5s;
 }
 
 .clear {

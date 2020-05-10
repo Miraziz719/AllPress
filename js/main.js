@@ -14,6 +14,14 @@ optionsList.forEach((o) => {
   });
 });
 
+$(document).mouseup(function (e) {
+  var popup = $(".options-container");
+  if (e.target != popup[0] && popup.has(e.target).length === 0) {
+    popup.removeClass("active");
+  }
+});
+
+console.log($('.center_site').width())
 // Модальное окно
 // открыть по кнопке
 $(".js-button-campaign").click(function () {
@@ -58,7 +66,5 @@ $(document).mouseup(function (e) {
 
 // carousel
 $(".carousel").carousel({
-  interval: 9000,
+  interval: 6000,
 });
-
-// new WOW().init();

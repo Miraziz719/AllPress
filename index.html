@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All Press</title>
     <link rel="stylesheet" href="css/font.css" />
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -137,23 +137,31 @@
                     <input
                       type="radio"
                       class="radio"
+                      id="aqsh"
+                      name="category"
+                    />
+                    <label for="aqsh"><img src="images/aqsh.svg" />С.Ш.А</label>
+                  </div>
+                  <div class="option">
+                    <input
+                      type="radio"
+                      class="radio"
+                      id="india"
+                      name="category"
+                    />
+                    <label for="india"
+                      ><img src="images/indi.svg" />Индия</label
+                    >
+                  </div>
+                  <div class="option">
+                    <input
+                      type="radio"
+                      class="radio"
                       id="rossiya"
                       name="category"
                     />
                     <label for="rossiya"
                       ><img src="images/rus.svg" />Росссия</label
-                    >
-                  </div>
-
-                  <div class="option">
-                    <input
-                      type="radio"
-                      class="radio"
-                      id="yevropa"
-                      name="category"
-                    />
-                    <label for="yevropa"
-                      ><img src="images/ye.png" width="24" />Европа</label
                     >
                   </div>
                 </div>
@@ -203,67 +211,63 @@
       <div class="body_main container">
         <!-- left sidebar -->
         <div class="left_sidebar sidebar">
-          <h2>Последние новости</h2>
+          <h2 class="header_singles">Последние новости</h2>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
           <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="" />
+            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
           </div>
         </div>
 
-        <!-- right sidebar -->
-        <div class="right_sidebar sidebar">
-          ssd
-        </div>
 
         <!-- center site -->
         <div class="center_site">
@@ -283,36 +287,60 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/post thambnail/Rectangle 197.jpg" class="d-block w-100" alt="..." />
+                <img
+                  src="images/post thambnail/Rectangle 197.jpg"
+                  class="d-block w-100"
+                  alt="img"
+                />
                 <div class="blur_box animate__animated animate__fadeIn">
-                  <h2 class="animate__animated animate__rotateInDownRight">Российские хакеры могли повлиять на выборы</h2>
+                  <h2 class="animate__animated animate__rotateInDownRight">
+                    Российские хакеры могли повлиять на выборы
+                  </h2>
                   <p class="animate__animated animate__rotateInUpRight">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Ullamcorper non amet volutpat nibh
                   </p>
-                  <a class="animate__animated animate__bounceIn" href="#"><i class="far fa-share-square"></i></a>
+                  <a class="animate__animated animate__bounceIn" href="#"
+                    ><i class="far fa-share-square"></i
+                  ></a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/post thambnail/Rectangle 197.jpg" class="d-block w-100" alt="..." />
+                <img
+                  src="images/post thambnail/Rectangle 197.jpg"
+                  class="d-block w-100"
+                  alt="img"
+                />
                 <div class="blur_box animate__animated animate__fadeIn">
-                  <h2 class="animate__animated animate__rotateInDownRight">Российские хакеры могли повлиять на выборы</h2>
+                  <h2 class="animate__animated animate__rotateInDownRight">
+                    Российские хакеры могли повлиять на выборы
+                  </h2>
                   <p class="animate__animated animate__rotateInUpRight">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Ullamcorper non amet volutpat nibh
                   </p>
-                  <a class="animate__animated animate__bounceIn" href="#"><i class="far fa-share-square"></i></a>
+                  <a class="animate__animated animate__bounceIn" href="#"
+                    ><i class="far fa-share-square"></i
+                  ></a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/post thambnail/Rectangle 197.jpg" class="d-block w-100" alt="..." />
+                <img
+                  src="images/post thambnail/Rectangle 197.jpg"
+                  class="d-block w-100"
+                  alt="img"
+                />
                 <div class="blur_box animate__animated animate__fadeIn">
-                  <h2 class="animate__animated animate__rotateInDownRight">Российские хакеры могли повлиять на выборы</h2>
+                  <h2 class="animate__animated animate__rotateInDownRight">
+                    Российские хакеры могли повлиять на выборы
+                  </h2>
                   <p class="animate__animated animate__rotateInUpRight">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Ullamcorper non amet volutpat nibh
                   </p>
-                  <a class="animate__animated animate__bounceIn" href="#"><i class="far fa-share-square"></i></a>
+                  <a class="animate__animated animate__bounceIn" href="#"
+                    ><i class="far fa-share-square"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -340,6 +368,103 @@
               ></span>
               <span class="sr-only">Next</span>
             </a>
+          </div>
+
+          <div class="new_card_container">
+            <a class="new_card">
+              <img src="images/post thambnail/Rectangle 320.jpg" alt="">
+              <h6>ФРС США резко из-за коронавируса</h6>
+            </a>
+            <a class="new_card">
+              <img src="images/post thambnail/Rectangle 323.jpg" alt="">
+              <h6>ФРС США резко из-за коронавируса</h6>
+            </a>
+            <a class="new_card">
+              <img src="images/post thambnail/Rectangle 325.jpg" alt="">
+              <h6>ФРС США резко из-за коронавируса</h6>
+            </a>
+            <a class="new_card">
+              <img src="images/post thambnail/Rectangle 327.jpg" alt="">
+              <h6>ФРС США резко из-за коронавируса</h6>
+            </a>
+            <a class="new_card">
+              <img src="images/post thambnail/Rectangle 429.jpg" alt="">
+              <h6>ФРС США резко из-за коронавируса</h6>
+            </a>
+          </div>
+        </div>
+
+        
+        <!-- right sidebar -->
+        <div class="right_sidebar sidebar">
+          <div class="aside_blog aside_pogoda">
+            <h4 class="title_box">Ташкент</h4>
+            <div class="card_container">
+              <div class="card_pogoda">
+                <p>Today</p>
+                <img src="images/pagoda/cloudy_day_night@2x.png" alt="">
+                <p>43 <span>43</span>
+                </p>
+              </div>
+              <div class="card_pogoda">
+                <p>Mon</p>
+                <img src="images/pagoda/fair_day@2x.png" alt="">
+                <p>43 <span>-3</span>
+                </p>
+              </div>
+              <div class="card_pogoda">
+                <p>Tue</p>
+                <img src="images/pagoda/thundershowers_day_night@2x.png" alt="">
+                <p>5 <span>43</span>
+                </p>
+              </div>
+              <div class="card_pogoda">
+                <p>Wed</p>
+                <img src="images/pagoda/scattered_showers_day_night@2x.png" alt="">
+                <p>23 <span>0</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="aside_blog">
+            <h2 class="header_singles">Популярные новости</h2>
+            <div class="post_left_single">
+              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+              <h4>
+                В России зафиксировали 601 новый случай заражения коронавирусом
+              </h4>
+            </div>
+            <div class="post_left_single">
+              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+              <h4>
+                В России зафиксировали 601 новый случай заражения коронавирусом
+              </h4>
+            </div>
+            <div class="post_left_single">
+              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+              <h4>
+                В России зафиксировали 601 новый случай заражения коронавирусом
+              </h4>
+            </div>
+            <div class="post_left_single">
+              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+              <h4>
+                В России зафиксировали 601 новый случай заражения коронавирусом
+              </h4>
+            </div>
+            <div class="post_left_single">
+              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+              <h4>
+                В России зафиксировали 601 новый случай заражения коронавирусом
+              </h4>
+            </div>
+            <div class="post_left_single">
+              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+              <h4>
+                В России зафиксировали 601 новый случай заражения коронавирусом
+              </h4>
+            </div>
+            
           </div>
         </div>
 
