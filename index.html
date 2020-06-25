@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta name="author" content="Ergashev Miraziz" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1"
+    />
     <title>All Press</title>
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/all.min.css" />
   </head>
   <body>
     <div class="overlay_menu animate__animated">
-      <div class="main_menu">
+      <div class="main_menu animate__animated">
         <a class="logo_2" href="index.html">
           <img src="images/logo.svg" alt="AllPress" />
         </a>
@@ -25,7 +29,7 @@
         </form>
         <ul>
           <li>
-            <a href="#">Новости</a>
+            <a href="articles.html">Новости</a>
             <ul>
               <li><a href="#">Вести</a></li>
               <li><a href="#">Политика</a></li>
@@ -36,7 +40,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">Бизнес</a>
+            <a href="business.html">Бизнес</a>
             <ul>
               <li><a href="#">Вести</a></li>
               <li><a href="#">Политика</a></li>
@@ -47,7 +51,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">Шоу-Бизнес</a>
+            <a href="show_business.html">Шоу-Бизнес</a>
             <ul>
               <li><a href="#">Вести</a></li>
               <li><a href="#">Политика</a></li>
@@ -58,7 +62,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">Спорт</a>
+            <a href="sport.html">Спорт</a>
             <ul>
               <li><a href="#">Вести</a></li>
               <li><a href="#">Политика</a></li>
@@ -69,7 +73,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">Здоровье</a>
+            <a href="health.html">Здоровье</a>
             <ul>
               <li><a href="#">Вести</a></li>
               <li><a href="#">Политика</a></li>
@@ -80,7 +84,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">Авто</a>
+            <a href="avto.html">Авто</a>
             <ul>
               <li><a href="#">Вести</a></li>
               <li><a href="#">Политика</a></li>
@@ -118,12 +122,12 @@
             </a>
 
             <ul>
-              <li><a href="#">Новости</a></li>
-              <li><a href="#">Бизнес</a></li>
-              <li><a href="#">Шоу-Бизнес</a></li>
-              <li><a href="#">Спорт</a></li>
-              <li><a href="#">Здоровье</a></li>
-              <li><a href="#">Авто</a></li>
+              <li><a href="articles.html">Новости</a></li>
+              <li><a href="business.html">Бизнес</a></li>
+              <li><a href="show_business.html">Шоу-Бизнес</a></li>
+              <li><a href="sport.html">Спорт</a></li>
+              <li><a href="health.html">Здоровье</a></li>
+              <li><a href="avto.html">Авто</a></li>
             </ul>
 
             <div class="search_button js-button-campaign">
@@ -140,7 +144,9 @@
                       id="aqsh"
                       name="category"
                     />
-                    <label for="aqsh"><img src="images/aqsh.svg" />С.Ш.А</label>
+                    <label for="aqsh"
+                      ><img src="images/aqsh.svg" alt="aqsh" />С.Ш.А</label
+                    >
                   </div>
                   <div class="option">
                     <input
@@ -150,7 +156,7 @@
                       name="category"
                     />
                     <label for="india"
-                      ><img src="images/indi.svg" />Индия</label
+                      ><img src="images/indi.svg" alt="indi" />Индия</label
                     >
                   </div>
                   <div class="option">
@@ -161,18 +167,18 @@
                       name="category"
                     />
                     <label for="rossiya"
-                      ><img src="images/rus.svg" />Росссия</label
+                      ><img src="images/rus.svg" alt="rus" />Росссия</label
                     >
                   </div>
                 </div>
                 <div class="selected">
-                  <img src="images/rus.svg" />
+                  <img src="images/rus.svg" alt="rus" />
                   Росссия
                 </div>
               </div>
             </div>
             <div>
-              <a href="#" class="live">
+              <a href="live.html" class="live">
                 <span><i class="fas fa-circle"></i></span>
                 Live
               </a>
@@ -182,92 +188,105 @@
             </div>
           </div>
         </div>
-
-        <div class="container_wrap_2">
-          <div class="container container_header_2">
-            <ul class="left_ul head_ul_2">
-              <li><a href="#" class="active">Главное о коронавирусе</a></li>
-              <li><a href="#">Экономика</a></li>
-              <li><a href="#">Экономика России за 2020 год</a></li>
-            </ul>
-            <ul class="right_ul head_ul_2">
-              <li>
-                <a href="#"><i class="fab fa-telegram"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </header>
+
+      <div class="container_wrap_2">
+        <div class="container container_header_2">
+          <ul class="left_ul head_ul_2">
+            <li><a href="#" class="active">Главное о коронавирусе</a></li>
+            <li><a href="#">Экономика</a></li>
+            <li><a href="#">Экономика России за 2020 год</a></li>
+          </ul>
+          <ul class="right_ul head_ul_2">
+            <li>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
       <div class="body_main container">
         <!-- left sidebar -->
         <div class="left_sidebar sidebar">
           <h2 class="header_singles">Последние новости</h2>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+          <a href="#" class="live_1">
+            <p class="top_p"><i class="fas fa-circle"></i>Live</p>
+            <img src="images/post_thambnail/Rectangle_462.jpg" alt="" />
+            <p class="bot_p">Прямой эфир канала All Press</p>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+            <div class="clear"></div>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+            <div class="clear"></div>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+            <div class="clear"></div>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+            <div class="clear"></div>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+            <div class="clear"></div>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+            <div class="clear"></div>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+            <div class="clear"></div>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
-          <div class="post_left_single">
-            <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
+            <div class="clear"></div>
+          </a>
+          <a href="#" class="post_left_single">
+            <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
             <h4>
               В России зафиксировали 601 новый случай заражения коронавирусом
             </h4>
-          </div>
+            <div class="clear"></div>
+          </a>
         </div>
-
 
         <!-- center site -->
         <div class="center_site">
@@ -288,15 +307,18 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="images/post thambnail/Rectangle 197.jpg"
+                  src="images/post_thambnail/Rectangle_197.jpg"
                   class="d-block w-100"
                   alt="img"
                 />
                 <div class="blur_box animate__animated animate__fadeIn">
-                  <h2 class="animate__animated animate__rotateInDownRight">
-                    Российские хакеры могли повлиять на выборы
+                  <h2 class="animate__animated animate__fadeInUp">
+                    <a href="#">
+                      Российские хакеры могли повлиять на выборы
+                    </a>
                   </h2>
-                  <p class="animate__animated animate__rotateInUpRight">
+
+                  <p class="animate__animated animate__fadeInUp">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Ullamcorper non amet volutpat nibh
                   </p>
@@ -307,15 +329,17 @@
               </div>
               <div class="carousel-item">
                 <img
-                  src="images/post thambnail/Rectangle 197.jpg"
+                  src="images/post_thambnail/Rectangle_197.jpg"
                   class="d-block w-100"
                   alt="img"
                 />
                 <div class="blur_box animate__animated animate__fadeIn">
-                  <h2 class="animate__animated animate__rotateInDownRight">
-                    Российские хакеры могли повлиять на выборы
+                  <h2 class="animate__animated animate__fadeInUp">
+                    <a href="#">
+                      Российские хакеры могли повлиять на выборы
+                    </a>
                   </h2>
-                  <p class="animate__animated animate__rotateInUpRight">
+                  <p class="animate__animated animate__fadeInUp">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Ullamcorper non amet volutpat nibh
                   </p>
@@ -326,15 +350,17 @@
               </div>
               <div class="carousel-item">
                 <img
-                  src="images/post thambnail/Rectangle 197.jpg"
+                  src="images/post_thambnail/Rectangle_197.jpg"
                   class="d-block w-100"
                   alt="img"
                 />
                 <div class="blur_box animate__animated animate__fadeIn">
-                  <h2 class="animate__animated animate__rotateInDownRight">
-                    Российские хакеры могли повлиять на выборы
+                  <h2 class="animate__animated animate__fadeInUp">
+                    <a href="#">
+                      Российские хакеры могли повлиять на выборы
+                    </a>
                   </h2>
-                  <p class="animate__animated animate__rotateInUpRight">
+                  <p class="animate__animated animate__fadeInUp">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Ullamcorper non amet volutpat nibh
                   </p>
@@ -370,112 +396,1000 @@
             </a>
           </div>
 
-          <div class="new_card_container">
-            <a class="new_card">
-              <img src="images/post thambnail/Rectangle 320.jpg" alt="">
-              <h6>ФРС США резко из-за коронавируса</h6>
-            </a>
-            <a class="new_card">
-              <img src="images/post thambnail/Rectangle 323.jpg" alt="">
-              <h6>ФРС США резко из-за коронавируса</h6>
-            </a>
-            <a class="new_card">
-              <img src="images/post thambnail/Rectangle 325.jpg" alt="">
-              <h6>ФРС США резко из-за коронавируса</h6>
-            </a>
-            <a class="new_card">
-              <img src="images/post thambnail/Rectangle 327.jpg" alt="">
-              <h6>ФРС США резко из-за коронавируса</h6>
-            </a>
-            <a class="new_card">
-              <img src="images/post thambnail/Rectangle 429.jpg" alt="">
-              <h6>ФРС США резко из-за коронавируса</h6>
-            </a>
+          <div class="new_card_container swiper-container">
+            <div class="swiper-wrapper">
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_320.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_323.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_327.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_327.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_429.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+            </div>
+          </div>
+
+          <div class="post_container_1">
+            <div class="post_header_1">
+              <h2><a href="#">Новости</a></h2>
+              <a href="#">Экономика</a><a href="#">Эксперты</a
+              ><a href="#">Вести</a><a href="#">Политика</a
+              ><a href="#">Владимир Путин</a>
+            </div>
+            <div class="posts__10">
+              <div class="post__10 border">
+                <a href="#" class="post__img__10">
+                  <img src="images/post_thambnail/Rectangle_310.jpg" alt="" />
+                </a>
+                <a href="#"><h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4></a>
+                <p class="time">Mar 8/21</p>
+              </div>
+
+              <div class="post__10 child">
+                <div class="post__11">
+                  <a href="#" class="post__img__10">
+                    <img src="images/post_thambnail/Rectangle_559.jpg" alt="" />
+                  </a>
+                  <div class="post__content__10">
+                    <a href="#"><h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4></a>
+                    <p class="time">Mar 8/21</p>
+                  </div>
+                </div>
+                <div class="post__11">
+                  <a href="#" class="post__img__10">
+                    <img src="images/post_thambnail/Rectangle_559.jpg" alt="" />
+                  </a>
+                  <div class="post__content__10">
+                    <a href="#"><h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4></a>
+                    <p class="time">Mar 8/21</p>
+                  </div>
+                </div>
+                <div class="post__11">
+                  <a href="#" class="post__img__10">
+                    <img src="images/post_thambnail/Rectangle_559.jpg" alt="" />
+                  </a>
+                  <div class="post__content__10">
+                    <a href="#"><h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4></a>
+                    <p class="time">Mar 8/21</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="post__10 border">
+                <a href="#" class="post__img__10">
+                  <img src="images/post_thambnail/Rectangle_433.jpg" alt="" />
+                </a>
+                <a href="#"><h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4></a>
+                <p class="time">Mar 8/21</p>
+              </div>
+
+              <div class="post__10 border">
+                <a href="#" class="post__img__10">
+                  <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+                </a>
+                <a href="#"><h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4></a>
+                <p class="time">Mar 8/21</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="new_card_container swiper-container">
+            <div class="swiper-wrapper">
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_320.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_323.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_327.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_327.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+              <a href="#" class="new_card swiper-slide">
+                <img src="images/post_thambnail/Rectangle_429.jpg" alt="" />
+                <h6>ФРС США резко из-за коронавируса</h6>
+              </a>
+            </div>
+          </div>
+
+          <div class="post_container_1">
+            <div class="post_header_1">
+              <h2><a href="#">Бизнес</a></h2>
+              <a href="#">Экономика</a><a href="#">Эксперты</a
+              ><a href="#">Вести</a><a href="#">Политика</a
+              ><a href="#">Владимир Путин</a>
+            </div>
+            <div class="post_container_11">
+              <a href="#" class="post_card_1">
+                <div class="post_img_box_1">
+                  <img src="images/post_thambnail/Rectangle_310.jpg" alt="" />
+                </div>
+                <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                <p>Mar 8/21</p>
+              </a>
+              <a href="#" class="post_card_1">
+                <div class="post_img_box_1">
+                  <img src="images/post_thambnail/Rectangle_433.jpg" alt="" />
+                </div>
+                <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                <p>Mar 8/21</p>
+              </a>
+              <a href="#" class="post_card_1">
+                <div class="post_img_box_1">
+                  <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+                </div>
+                <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                <p>Mar 8/21</p>
+              </a>
+              <a href="#" class="post_card_1">
+                <div class="post_img_box_1">
+                  <img src="images/post_thambnail/Rectangle_440.jpg" alt="" />
+                </div>
+                <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                <p>Mar 8/21</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="post_container_1 width__100">
+            <div class="post_header_1">
+              <h2><a href="#">Шоу-Бизнес</a></h2>
+              <a href="#">Экономика</a><a href="#">Эксперты</a
+              ><a href="#">Вести</a><a href="#">Политика</a
+              ><a href="#">Владимир Путин</a>
+            </div>
+            <div class="posts__20">
+              <div class="post__20">
+                <a class="post__img__20" href="#">
+                  <img src="images/post_thambnail/Rectangle_468.jpg" alt=""/>
+                </a>
+                <div class="post__content__20">
+                  <div class="post__content__21">
+                    <a href="#">
+                      <h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4>
+                    </a>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit suspendisse urna pellentesque vitae sagittis a,
+                      accumsan rhoncus lorem. Nulla leo cursus hendrerit
+                    </p>
+                  </div>
+                  <div class="post__content__22">
+                    <a href="#" class="post__content__221">
+                      <img src="images/post_thambnail/Rectangle_608.jpg" alt="" />
+                      <h6>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </h6>
+                    </a>
+                    <a href="#" class="post__content__221">
+                      <img src="images/post_thambnail/Rectangle_608.jpg" alt="" />
+                      <h6>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="post__20">
+                <a class="post__img__20" href="#">
+                  <img src="images/post_thambnail/Rectangle_468.jpg" alt=""/>
+                </a>
+                <div class="post__content__20">
+                  <div class="post__content__21">
+                    <a href="#">
+                      <h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4>
+                    </a>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit suspendisse urna pellentesque vitae sagittis a,
+                      accumsan rhoncus lorem. Nulla leo cursus hendrerit
+                    </p>
+                  </div>
+                  <div class="post__content__22">
+                    <a href="#" class="post__content__221">
+                      <img src="images/post_thambnail/Rectangle_608.jpg" alt="" />
+                      <h6>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </h6>
+                    </a>
+                    <a href="#" class="post__content__221">
+                      <img src="images/post_thambnail/Rectangle_608.jpg" alt="" />
+                      <h6>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="post__20">
+                <a class="post__img__20" href="#">
+                  <img src="images/post_thambnail/Rectangle_468.jpg" alt=""/>
+                </a>
+                <div class="post__content__20">
+                  <div class="post__content__21">
+                    <a href="#">
+                      <h4>ФРС США резко понизила ставку из-за коронавируса из-за коронавируса</h4>
+                    </a>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit suspendisse urna pellentesque vitae sagittis a,
+                      accumsan rhoncus lorem. Nulla leo cursus hendrerit
+                    </p>
+                  </div>
+                  <div class="post__content__22">
+                    <a href="#" class="post__content__221">
+                      <img src="images/post_thambnail/Rectangle_608.jpg" alt="" />
+                      <h6>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </h6>
+                    </a>
+                    <a href="#" class="post__content__221">
+                      <img src="images/post_thambnail/Rectangle_608.jpg" alt="" />
+                      <h6>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
 
-        
         <!-- right sidebar -->
         <div class="right_sidebar sidebar">
-          <div class="aside_blog aside_pogoda">
-            <h4 class="title_box">Ташкент</h4>
-            <div class="card_container">
-              <div class="card_pogoda">
-                <p>Today</p>
-                <img src="images/pagoda/cloudy_day_night@2x.png" alt="">
-                <p>43 <span>43</span>
-                </p>
+          <div id="tabs">
+            <div class="header_tabs">
+              <span class="tablinks active" onclick="openCity(event, '1')"
+                >ПОГОДА</span
+              >
+              <span class="tablinks" onclick="openCity(event, '2')"
+                >КУРС ЦБ</span
+              >
+              <span class="tablinks" onclick="openCity(event, '3')">СПОРТ</span>
+            </div>
+            <div id="1" class="aside_blog aside_pogoda tabcontent active">
+              <div class="title_box">
+                <h4><a href="weather.html">Ташкент</a></h4>
+                <form class="pogoda_form" action="">
+                  <input type="text" />
+                  <button type="submit"><i class="fas fa-search"></i></button>
+                  <div class="clear"></div>
+                </form>
               </div>
-              <div class="card_pogoda">
-                <p>Mon</p>
-                <img src="images/pagoda/fair_day@2x.png" alt="">
-                <p>43 <span>-3</span>
-                </p>
+              <div class="card_container">
+                <div class="card_pogoda">
+                  <p>Today</p>
+                  <img src="images/pagoda/cloudy_day_night@2x.png" alt="" />
+                  <p>43 <span>43</span></p>
+                </div>
+                <div class="card_pogoda">
+                  <p>Mon</p>
+                  <img src="images/pagoda/fair_day@2x.png" alt="" />
+                  <p>43 <span>-3</span></p>
+                </div>
+                <div class="card_pogoda">
+                  <p>Tue</p>
+                  <img
+                    src="images/pagoda/thundershowers_day_night@2x.png"
+                    alt=""
+                  />
+                  <p>5 <span>43</span></p>
+                </div>
+                <div class="card_pogoda">
+                  <p>Wed</p>
+                  <img
+                    src="images/pagoda/scattered_showers_day_night@2x.png"
+                    alt=""
+                  />
+                  <p>23 <span>0</span></p>
+                </div>
               </div>
-              <div class="card_pogoda">
-                <p>Tue</p>
-                <img src="images/pagoda/thundershowers_day_night@2x.png" alt="">
-                <p>5 <span>43</span>
-                </p>
-              </div>
-              <div class="card_pogoda">
-                <p>Wed</p>
-                <img src="images/pagoda/scattered_showers_day_night@2x.png" alt="">
-                <p>23 <span>0</span>
-                </p>
-              </div>
+            </div>
+            <div id="2" class="aside_blog aside_kurs tabcontent">
+              <table>
+                <tr>
+                  <td><img src="images/kurs/usd.svg" alt="" />USD</td>
+                  <td class="red">102.43</td>
+                </tr>
+                <tr>
+                  <td><img src="images/kurs/usd.svg" alt="" />USD ЦБ</td>
+                  <td class="green">102.43</td>
+                </tr>
+                <tr>
+                  <td><img src="images/kurs/eur.svg" alt="" />EUR</td>
+                  <td class="red">22.43</td>
+                </tr>
+                <tr>
+                  <td><img src="images/kurs/eur.svg" alt="" />EUR ЦБ</td>
+                  <td class="green">22.43</td>
+                </tr>
+                <tr>
+                  <td><img src="images/kurs/oil.svg" alt="" />OIL</td>
+                  <td class="green">2.43</td>
+                </tr>
+              </table>
+            </div>
+            <div id="3" class="aside_blog aside_sport tabcontent">
+              <p>
+                <a href="#" class="active">Футбол. </a>
+                <a href="#">Премьер Лига. </a>
+                <a href="#">Англия. </a>
+              </p>
+              <table>
+                <tr>
+                  <td>Россия<img src="images/indi.svg" alt="" /></td>
+                  <td>3:0</td>
+                  <td><img src="images/aqsh.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/rus.svg" alt="" /></td>
+                  <td>3:2</td>
+                  <td><img src="images/indi.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/rus.svg" alt="" /></td>
+                  <td>1:0</td>
+                  <td><img src="images/aqsh.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/indi.svg" alt="" /></td>
+                  <td>0:1</td>
+                  <td><img src="images/rus.svg" alt="" />Испания</td>
+                </tr>
+              </table>
+              <p>
+                <a href="#" class="active">Хоккей. </a>
+                <a href="#">НХЛ. </a>
+              </p>
+              <table>
+                <tr>
+                  <td>Россия<img src="images/indi.svg" alt="" /></td>
+                  <td>3:0</td>
+                  <td><img src="images/aqsh.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/rus.svg" alt="" /></td>
+                  <td>3:2</td>
+                  <td><img src="images/indi.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/rus.svg" alt="" /></td>
+                  <td>1:0</td>
+                  <td><img src="images/aqsh.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/indi.svg" alt="" /></td>
+                  <td>0:1</td>
+                  <td><img src="images/rus.svg" alt="" />Испания</td>
+                </tr>
+              </table>
+              <p>
+                <a href="#" class="active">Баскетбол. </a>
+                <a href="#">Чемпионат мира. </a>
+              </p>
+              <table>
+                <tr>
+                  <td>Россия<img src="images/indi.svg" alt="" /></td>
+                  <td>3:0</td>
+                  <td><img src="images/aqsh.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/rus.svg" alt="" /></td>
+                  <td>3:2</td>
+                  <td><img src="images/indi.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/rus.svg" alt="" /></td>
+                  <td>1:0</td>
+                  <td><img src="images/aqsh.svg" alt="" />Испания</td>
+                </tr>
+                <tr>
+                  <td>Россия<img src="images/indi.svg" alt="" /></td>
+                  <td>0:1</td>
+                  <td><img src="images/rus.svg" alt="" />Испания</td>
+                </tr>
+              </table>
             </div>
           </div>
-          <div class="aside_blog">
+
+          <div class="sidebar__aside aside_blog">
             <h2 class="header_singles">Популярные новости</h2>
-            <div class="post_left_single">
-              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
-              <h4>
-                В России зафиксировали 601 новый случай заражения коронавирусом
-              </h4>
+            <div class="aside__post">
+              <a href="#">
+                <div class="aside__img">
+                  <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
+                </div>
+                <h4 class="aside__content">
+                  В России зафиксировали 601 новый случай заражения коронавирусом
+                </h4>
+              </a>
             </div>
-            <div class="post_left_single">
-              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
-              <h4>
-                В России зафиксировали 601 новый случай заражения коронавирусом
-              </h4>
+            <div class="aside__post">
+              <a href="#">
+                <div class="aside__img">
+                  <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
+                </div>
+                <h4 class="aside__content">
+                  В России зафиксировали 601 новый случай заражения коронавирусом
+                </h4>
+              </a>
             </div>
-            <div class="post_left_single">
-              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
-              <h4>
-                В России зафиксировали 601 новый случай заражения коронавирусом
-              </h4>
+            <div class="aside__post">
+              <a href="#">
+                <div class="aside__img">
+                  <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
+                </div>
+                <h4 class="aside__content">
+                  В России зафиксировали 601 новый случай заражения коронавирусом
+                </h4>
+              </a>
             </div>
-            <div class="post_left_single">
-              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
-              <h4>
-                В России зафиксировали 601 новый случай заражения коронавирусом
-              </h4>
+            <div class="aside__post">
+              <a href="#">
+                <div class="aside__img">
+                  <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
+                </div>
+                <h4 class="aside__content">
+                  В России зафиксировали 601 новый случай заражения коронавирусом
+                </h4>
+              </a>
             </div>
-            <div class="post_left_single">
-              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
-              <h4>
-                В России зафиксировали 601 новый случай заражения коронавирусом
-              </h4>
+            <div class="aside__post">
+              <a href="#">
+                <div class="aside__img">
+                  <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
+                </div>
+                <h4 class="aside__content">
+                  В России зафиксировали 601 новый случай заражения коронавирусом
+                </h4>
+              </a>
             </div>
-            <div class="post_left_single">
-              <img src="images/post thambnail/Rectangle 314.jpg" alt="img" />
-              <h4>
-                В России зафиксировали 601 новый случай заражения коронавирусом
-              </h4>
+            <div class="aside__post">
+              <a href="#">
+                <div class="aside__img">
+                  <img src="images/post_thambnail/Rectangle_314.jpg" alt="img" />
+                </div>
+                <h4 class="aside__content">
+                  В России зафиксировали 601 новый случай заражения коронавирусом
+                </h4>
+              </a>
             </div>
-            
+
+          </div>
+
+          <div class="reklama aside_blog">
+            <img
+              src="images/71d9ca62-6b8f-4fd4-8611-796da6c406bb_rw_1200.gif"
+              alt=""
+            />
+          </div>
+
+          <div class="aside_blog right_sticky">
+            <h2 class="header_singles">Trading</h2>
+
+            <div class="sidebar_swiper">
+              <div class="swiper-container_2">
+                <div class="swiper-wrapper">
+                  <a href="#" class="swiper-slide post_card_1 post_card_2">
+                    <div class="post_img_box_1">
+                      <img src="images/post_thambnail/Rectangle_433.jpg" alt="" />
+                    </div>
+                    <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                    <p>ФРС США резко понизила ставку из-за коронавируса</p>
+                    <p class="align-left">Mar 8/21</p>
+                  </a>
+                  <a href="#" class="swiper-slide post_card_1 post_card_2">
+                    <div class="post_img_box_1">
+                      <img src="images/post_thambnail/Rectangle_310.jpg" alt="" />
+                    </div>
+                    <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                    <p>ФРС США резко понизила ставку из-за коронавируса</p>
+                    <p class="align-left">Mar 8/21</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar__posts">
+              <div class="aside__post">
+                <a href="#">
+                  <h4 class="aside__content">
+                    В России зафиксировали 601 новый случай заражения коронавирусом
+                  </h4>
+                </a>
+              </div>
+              <div class="aside__post">
+                <a href="#">
+                  <h4 class="aside__content">
+                    В России зафиксировали 601 новый случай заражения коронавирусом
+                  </h4>
+                </a>
+              </div>
+              <div class="aside__post">
+                <a href="#">
+                  <h4 class="aside__content">
+                    В России зафиксировали 601 новый случай заражения коронавирусом
+                  </h4>
+                </a>
+              </div>
+              <div class="aside__post">
+                <a href="#">
+                  <h4 class="aside__content">
+                    В России зафиксировали 601 новый случай заражения коронавирусом
+                  </h4>
+                </a>
+              </div>
+              <div class="aside__post">
+                <a href="#">
+                  <h4 class="aside__content">
+                    В России зафиксировали 601 новый случай заражения коронавирусом
+                  </h4>
+                </a>
+              </div>
+              <div class="aside__post">
+                <a href="#">
+                  <h4 class="aside__content">
+                    В России зафиксировали 601 новый случай заражения коронавирусом
+                  </h4>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="clear"></div>
       </div>
       <!-- ^^ body_main container ^^ -->
+
+      <div class="body_main_2 container">
+
+        <div class="post_container_1 posts_wrap">
+          <div class="post_header_1">
+            <h2><a href="#">Спорт</a></h2>
+            <a href="#">Экономика</a><a href="#">Эксперты</a
+            ><a href="#">Вести</a><a href="#">Политика</a
+            ><a href="#">Владимир Путин</a>
+          </div>
+          <div class="post_container_11">
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_310.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_433.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_440.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+          </div>
+        </div>
+        <div class="post_container_1 posts_wrap">
+          <div class="post_header_1">
+            <h2><a href="#">Авто</a></h2>
+            <a href="#">Экономика</a><a href="#">Эксперты</a
+            ><a href="#">Вести</a><a href="#">Политика</a
+            ><a href="#">Владимир Путин</a>
+          </div>
+          <div class="post_container_11">
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_310.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_433.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_440.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+          </div>
+        </div>
+        <div class="post_container_1 posts_wrap">
+          <div class="post_header_1">
+            <h2><a href="#">Технологии</a></h2>
+            <a href="#">Экономика</a><a href="#">Эксперты</a
+            ><a href="#">Вести</a><a href="#">Политика</a
+            ><a href="#">Владимир Путин</a>
+          </div>
+          <div class="post_container_11">
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_310.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_433.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_440.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+          </div>
+        </div>
+        <div class="post_container_1 posts_wrap">
+          <div class="post_header_1">
+            <h2><a href="#">Для женщин</a></h2>
+            <a href="#">Экономика</a><a href="#">Эксперты</a
+            ><a href="#">Вести</a><a href="#">Политика</a
+            ><a href="#">Владимир Путин</a>
+          </div>
+          <div class="post_container_11">
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_310.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_433.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_440.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+            <a href="#" class="post_card_1 post_card_wrap">
+              <div class="post_img_box_1">
+                <img src="images/post_thambnail/Rectangle_439.jpg" alt="" />
+              </div>
+              <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+              <p>Mar 8/21</p>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="post_container_1 width__100 post_in_post_container posts_wrap">
+          <div class="post_header_1">
+            <h2><a href="#">Последние</a></h2>
+            <a href="#">Экономика</a><a href="#">Эксперты</a
+            ><a href="#">Вести</a><a href="#">Политика</a
+            ><a href="#">Владимир Путин</a>
+          </div>
+          <div class="posts__30">
+
+            <div class="post__30">
+              <a class="post__img__30" href="#">
+                <img src="images/post_thambnail/Rectangle_526.jpg" alt=""/>
+              </a>
+              <div class="post__box__30">
+                <div class="post__content__30">
+                  <a href="#">
+                    <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                  </a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a, accumsan rhoncus lorem. Nulla leo cursus hendrerit consectetur neque, elementum, magna cras etiam. Est, nisi, venenatis lacus enim suspendisse nisl. Dui fringilla tempor eu leo neque, morbi arcu risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna 
+                  </p>
+                </div>
+                <div class="posts__31">
+                  <a href="#" class="post__31">
+                    <img src="images/post_thambnail/Rectangle_597.jpg" alt="" />
+                    <h6>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a
+                    </h6>
+                  </a>
+                  <a href="#" class="post__31">
+                    <img src="images/post_thambnail/Rectangle_597.jpg" alt="" />
+                    <h6>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a
+                    </h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="post__30">
+              <a class="post__img__30" href="#">
+                <img src="images/post_thambnail/Rectangle_526.jpg" alt=""/>
+              </a>
+              <div class="post__box__30">
+                <div class="post__content__30">
+                  <a href="#">
+                    <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                  </a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a, accumsan rhoncus lorem. Nulla leo cursus hendrerit consectetur neque, elementum, magna cras etiam. Est, nisi, venenatis lacus enim suspendisse nisl. Dui fringilla tempor eu leo neque, morbi arcu risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna 
+                  </p>
+                </div>
+                <div class="posts__31">
+                  <a href="#" class="post__31">
+                    <img src="images/post_thambnail/Rectangle_597.jpg" alt="" />
+                    <h6>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a
+                    </h6>
+                  </a>
+                  <a href="#" class="post__31">
+                    <img src="images/post_thambnail/Rectangle_597.jpg" alt="" />
+                    <h6>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a
+                    </h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="post__30">
+              <a class="post__img__30" href="#">
+                <img src="images/post_thambnail/Rectangle_526.jpg" alt=""/>
+              </a>
+              <div class="post__box__30">
+                <div class="post__content__30">
+                  <a href="#">
+                    <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                  </a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a, accumsan rhoncus lorem. Nulla leo cursus hendrerit consectetur neque, elementum, magna cras etiam. Est, nisi, venenatis lacus enim suspendisse nisl. Dui fringilla tempor eu leo neque, morbi arcu risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna 
+                  </p>
+                </div>
+                <div class="posts__31">
+                  <a href="#" class="post__31">
+                    <img src="images/post_thambnail/Rectangle_597.jpg" alt="" />
+                    <h6>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a
+                    </h6>
+                  </a>
+                  <a href="#" class="post__31">
+                    <img src="images/post_thambnail/Rectangle_597.jpg" alt="" />
+                    <h6>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a
+                    </h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="post__30">
+              <a class="post__img__30" href="#">
+                <img src="images/post_thambnail/Rectangle_526.jpg" alt=""/>
+              </a>
+              <div class="post__box__30">
+                <div class="post__content__30">
+                  <a href="#">
+                    <h4>ФРС США резко понизила ставку из-за коронавируса</h4>
+                  </a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a, accumsan rhoncus lorem. Nulla leo cursus hendrerit consectetur neque, elementum, magna cras etiam. Est, nisi, venenatis lacus enim suspendisse nisl. Dui fringilla tempor eu leo neque, morbi arcu risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna 
+                  </p>
+                </div>
+                <div class="posts__31">
+                  <a href="#" class="post__31">
+                    <img src="images/post_thambnail/Rectangle_597.jpg" alt="" />
+                    <h6>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a
+                    </h6>
+                  </a>
+                  <a href="#" class="post__31">
+                    <img src="images/post_thambnail/Rectangle_597.jpg" alt="" />
+                    <h6>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit suspendisse urna pellentesque vitae sagittis a
+                    </h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+ 
+      </div>
+      <!-- ^^ body_main_2 container ^^ -->
+
+      <footer class="footer">
+        <div class="main_menu footer_menu container">
+          <ul>
+            <li>
+              <a href="#">Новости</a>
+              <ul>
+                <li><a href="#">Вести</a></li>
+                <li><a href="#">Политика</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Бизнес</a>
+              <ul>
+                <li><a href="#">Вести</a></li>
+                <li><a href="#">Политика</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Шоу-Бизнес</a>
+              <ul>
+                <li><a href="#">Вести</a></li>
+                <li><a href="#">Политика</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Спорт</a>
+              <ul>
+                <li><a href="#">Вести</a></li>
+                <li><a href="#">Политика</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Здоровье</a>
+              <ul>
+                <li><a href="#">Вести</a></li>
+                <li><a href="#">Политика</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Авто</a>
+              <ul>
+                <li><a href="#">Вести</a></li>
+                <li><a href="#">Политика</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Для женщин</a>
+              <ul>
+                <li><a href="#">Вести</a></li>
+                <li><a href="#">Политика</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+                <li><a href="#">Владимир Путин</a></li>
+                <li><a href="#">Газета</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="footer_footer">
+            <a class="logo_3" href="index.html">
+              <img class="logo_white" src="images/logo_3.png" alt="AllPress" />
+              <img class="logo_blue" src="images/logo_32.png" alt="AllPress" />
+            </a>
+            <ul class="right_ul head_ul_2">
+              <li>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+          <p class="Copyright">
+            Copyright © 2020 All Press - All Rights Reserved.
+          </p>
+        </div>
+      </footer>
     </div>
     <!-- ^^ main ^^ -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
