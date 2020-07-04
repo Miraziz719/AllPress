@@ -5,7 +5,7 @@
   .container_header ul li {
     margin-right: 20px;
   }
-  .main_menu > ul > li {
+  .menu__links > li {
     margin: 0 20px 20px 0;
     min-width: 160px;
   }
@@ -215,10 +215,18 @@
   .close {
     font-size: 24px;
     color: white;
+    top: 230px;
+    right: 0px;
+  }
+  .close i {
+    display: none;
+  }
+  .close img {
+    display: block;
   }
   .main_menu form {
     position: relative;
-    margin: 23px 23px;
+    margin: 12px 23px 7px;
     width: 69%;
   }
   .main_menu form input {
@@ -238,27 +246,54 @@
     font-size: 14px;
     color: #fff;
   }
-  .main_menu > ul {
+  .menu__links {
     padding: 8px 23px 5px;
     display: flex;
     flex-wrap: wrap;
   }
-  .main_menu ul li {
+  .menu__links li {
     margin: 0 20px 10px 0;
   }
-  .main_menu ul li a {
+  .menu__links li a {
     color: white;
     font: 18px;
     font-weight: normal;
   }
-  .main_menu > ul ul {
-    display: none;
+  .link .fa-caret-down {
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    transition: 0.3s ease 0s;
+  }
+  .link.open .fa-caret-down {
+    transform: rotateZ(180deg);
+  }
+  .menu__links ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease 0s;
+  }
+  .menu__links ul li a {
+    font-size: 13px;
+    color: #B4B4B4;
+  }
+  .live_2 {
+    display: block;
+  }
+  .sotsal {
+    position: relative;
+    text-align: left;
+  }
+  .sotsal__text {
+    display: block;
+  }
+  .sotsal__icons a {
+    color: white;
   }
   .appstore {
     display: block;
     width: 175px;
     margin: 0 23px 20px;
-    border-top: 1px solid white;
   }
   .appstore a {
     margin: 10px 0 0;
@@ -272,6 +307,9 @@
   }
   .appstore_22 {
     line-height: 38px;
+  }
+  .head_ul_2 li a {
+    color: white;
   }
 } /* 1150px */
 
@@ -332,9 +370,36 @@
     right: 25px;
     margin: 0;
   }
-  .live,
   .select-box {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    padding: 5px 0;
+  }
+  .select-box .options-container {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .selected {
+    color: #000;
+  }
+  .selected::after {
+    background: url("../images/arrow-down-black.svg");
+  }
+  .selected img,
+  .option img {
+    border: 1px solid gray;
+    border-radius: 50%;
+  }
+  .live {
     display: none;
+  }
+  .live_2 {
+    display: block;
   }
   .post_header_1 > a {
     display: none;
@@ -434,7 +499,7 @@
   .posts__50 {
     width: 100%;
     margin: 0 0 30px 0;
-    overflow: visible;
+    /* overflow: visible; */
   }
   .posts__51 {
     width: 100%;

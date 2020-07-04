@@ -121,6 +121,42 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.2);
 }
+.live_2 {
+  border: none;
+  display: none;
+}
+.sotsal {
+  margin-top: 15px;
+  padding: 11px 23px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+.sotsal::before {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  content: '';
+  width: 60%;
+  height: 1px;
+  background: #FFFFFF;
+}
+.sotsal__text {
+  font-size: 18px;
+  color: #779CD5;
+  margin-bottom: 5px;
+  display: none;
+}
+.sotsal__icons li {
+  display: inline;
+}
+.sotsal__icons a {
+  color: black;
+  font-size: 20px;
+  margin-right: 20px;
+}
 
 /*     custom select
 ===================================================================*/
@@ -176,7 +212,6 @@ header {
 .select-box .options-container.active + .selected::after {
   transform: rotateX(180deg);
 }
-
 .select-box .options-container.active {
   max-height: 240px;
   opacity: 1;
@@ -199,13 +234,14 @@ header {
 }
 
 .overlay_menu {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   z-index: 10;
+  opacity: 0;
+  visibility: hidden;
 }
 .main_menu {
   position: absolute;
@@ -217,7 +253,15 @@ header {
   height: 566px;
   border: 1px solid #8b8b8b;
   background-color: white;
-  box-shadow: 0px 0px 10px gray;
+  box-shadow: 0px 0px 10px gray; 
+}
+.menu__content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.menu__content::-webkit-scrollbar {
+  width: 0;
 }
 .logo_2 {
   display: none;
@@ -228,6 +272,9 @@ header {
   right: 25px;
   font-size: 28px;
   cursor: pointer;
+}
+.close img {
+  display: none;
 }
 .main_menu form {
   position: relative;
@@ -262,29 +309,32 @@ header {
   color: white;
 }
 
-.main_menu > ul {
+.menu__links {
   padding: 8px 5px 35px 35px;
   display: flex;
   flex-wrap: wrap;
 }
-.main_menu > ul > li {
+.menu__links > li {
   margin: 0 30px 20px 0;
   min-width: 205px;
 }
-.main_menu > ul > li > a {
+.link .fa-caret-down {
+  display: none;
+}
+.menu__links > li > a {
   color: black;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
 }
-.main_menu ul li a:hover {
+.menu__links li a:hover {
   text-decoration: underline;
 }
-.main_menu ul ul li {
+.menu__links ul li {
   margin: 8px 0px;
   line-height: 16px;
 }
-.main_menu ul ul li a {
+.menu__links ul li a {
   font-size: 14px;
   line-height: 16px;
   color: #000000;
@@ -1938,6 +1988,7 @@ a:hover {
 .posts__box__40 {
   padding: 0 10px 20px;
   position: relative;
+  overflow: hidden;
 }
 .posts__box__40:before {
   content: '';
